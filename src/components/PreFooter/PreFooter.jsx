@@ -1,5 +1,5 @@
 import React from 'react'
-import "./preFooter.css"
+import "./PreFooter.css"
 
 const PreFooter = () => {
   return (
