@@ -1,0 +1,19 @@
+
+.centerText--container{
+    background-color:var(--clr-background);
+    padding-top: 3em;;
+    padding-bottom: 3em;
+    
+   
+}
+.centerText--container{
+    text-align: center;
+  
+}
+
+.centerText--container h1{
+    font-weight: 500;
+    opacity: 1;
+    color: var( --clr-taglines3);
+    font-size: 36px;
+}

@@ -1,0 +1,18 @@
+.Footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    padding: 3em 0;
+    opacity: 0.4;
+}
+.Footer-div div{
+    display: flex;
+    align-items: center;
+    
+ 
+}
+#foot1h3{
+    max-width: 30ch;
+    color: var(--clr-taglines3);
+}

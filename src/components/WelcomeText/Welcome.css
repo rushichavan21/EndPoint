@@ -1,0 +1,52 @@
+
+.maincontainer {
+  display: flex;
+  background-color: #11091d;
+}
+.Welcome--container {
+  background-color: #11091d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3em 0 3em 3em;
+}
+.Welcome--container div {
+  margin: 0.5em 0 0 1em;
+}
+.Welcome--button button {
+  border: 1px solid none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0px solid;
+  border-radius: 1rem;
+  background-color: #e65c00e6;
+  padding: 0.75rem;
+  margin-top: 0.8em;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.Welcome--title h1 {
+  font-weight: 500;
+  font-size: 48px;
+}
+.Welcome--info {
+  max-width: 60ch;
+  font-size: 24px;
+  font-weight: 400;
+}
+.Welcome--tagline {
+  color: #e65c00e6;
+  font-weight: 500;
+  font-size: 24px;
+}
+.welcome--logo-colour {
+  color: #e65c00e6;
+}
+.svgContainer {
+  align-self: flex-end;
+  position: absolute;
+  right: 5em;
+  padding: 0 1em 6em 0;
+}

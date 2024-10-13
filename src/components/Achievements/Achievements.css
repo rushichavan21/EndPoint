@@ -1,0 +1,43 @@
+
+.Achieve--main{
+    background-color:var(--clr-background);
+    text-align: center;
+    padding-bottom: 1em;
+
+}
+.Achieve--title{
+    text-align: center;
+    padding: 2em 0 2em 0;
+    color: var(--clr-body-text);
+    opacity: 0.8;
+    font-size:24px;
+}
+.Achieve--title h4{
+ padding-top: 0.8em;
+ color: var(--clr-taglines3);
+ font-size: 24px;
+}
+.achieve--data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em 0 1em 0;
+}
+.data{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 15px;
+    padding: 1em;
+}
+.data h1{
+    color:var(--clr-taglines);
+    font-size:36px;
+ 
+}
+.data h4{
+    color:var(--clr-taglines3);
+    font-size: 24px;
+}

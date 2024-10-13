@@ -1,0 +1,525 @@
+:root{
+  --clr-background: 	hsl(264, 53%, 7%);
+  --clr-Nav-bg:#242528cc;
+  --btn-bg-orange: #e65c00e6;
+  --clr-taglines:#e65c00e6;
+  --clr-taglines2:#757575;
+  --clr-taglines3:#818194;
+  --clr-body-text:#fffc;
+  --clr-accordian-border: rgba(218, 165, 32, 0.489);
+  --width-item-ani:-200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  color:var(--clr-body-text);
+  font-family: poppins;
+  background-color: var(--clr-background);
+}
+
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  /* border: 1px solid red; */
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+  .svgContainer{
+    opacity: 0;
+  }
+  .Welcome--title h1{
+    font-size:  40px;
+  }
+  .Welcome--info{
+    font-size: 22px;
+  }
+  .Welcome--button button, .scheduleBtn{
+    font-size: 17px;
+  }
+  .navbar--navigation ul button{
+    padding: 0.25em 0.75em;
+      font-size: 18px;
+    }
+    .item img{
+      transform: scale(0.9);
+    }
+    .item h1{
+      font-size: 18px;
+    }
+    .centerText--container h1{
+      font-size: 32px;
+    }
+    .Achieve--title{
+      font-size: 19px;
+    }
+    .Achieve--title h4{
+      font-size: 22px;
+    }
+    .data h1{font-size: 34px;}
+    .data h4{font-size: 21px;}
+    .acc--title h1{
+      font-size: 24px
+    }
+    .acc--content h2{
+      font-size: 20px;
+    }
+    .Extra-ani{
+      font-size: 30px;
+     }
+     .acc--title,.acc--item{
+      max-width:60vw;
+     }
+     .acc--button{
+   width: 30px;
+   height: 30px;
+   font-size: 25px;
+     }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  .Welcome--title h1{
+    font-size: 42px;
+  }
+  .Welcome--info{
+    font-size: 18px;
+  }
+  .Welcome--button button,.scheduleBtn{
+    font-size: 15px;
+  }
+  .item img{
+    transform: scale(0.8);
+  }
+  .item h1{
+    font-size: 16px;
+  }
+  .centerText--container h1{
+    font-size: 28px;
+  }
+  .navbar--navigation ul button{
+    padding: 0.25em 0.75em;
+      font-size: 14px;
+    }
+    .Achieve--title{
+      font-size: 17px;
+    }
+    .Achieve--title h4{
+      font-size: 19px;
+    }
+    .data h1{font-size: 26px;}
+    .data h4{font-size: 15px;}
+    .acc--title h1{
+      font-size: 18px
+    }
+    .acc--content h2{
+      font-size: 18px;
+    }
+    .Extra-ani{
+      font-size: 24px;
+     }
+     .acc--button{
+      width: 30px;
+      height: 30px;
+      font-size: 25px;
+        }
+
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .navbar--container{
+    max-height: 5em;
+  }
+  .navbar--title h1{
+    font-size: 20px;
+  }
+  .navbar--title img{
+    transform: scale(0.7);
+  }
+  .Welcome--title h1{
+    font-size: 32px;
+  }
+  .Welcome--tagline{
+    font-size: 18px
+  }
+  .Welcome--info{
+    font-size: 14px;
+  }
+  .Welcome--button button,.scheduleBtn{
+    font-size: 11px;
+    margin-top: 0.4em;
+    padding: 0.5rem;
+  }
+  .item img{
+    transform: scale(0.6);
+  }
+  .item h1{
+    font-size: 14px;
+  }
+  .centerText--container h1{
+    font-size: 22px;
+  }
+  .navbar--navigation ul button{
+    padding: 0.25em 0.75em;
+      font-size: 11px;
+    }
+    .Achieve--title{
+      font-size: 13px;
+    }
+    .Achieve--title h4{
+      font-size: 15px;
+    }
+    .Achieve--title h4{
+      padding-top: 0.5em;
+    }
+    .achieve--data{
+      padding: 0.5em 0 0.5em 0;
+    }
+    .data h1{font-size: 22px;}
+    .data h4{font-size: 12px;}
+    .acc--title h1{
+      font-size: 13px
+    }
+    .wrapper{
+      padding-top: 2rem;
+      padding-bottom: 7rem;
+    }
+    .acc--content h2{
+      font-size: 14px;
+    }
+    .Extra-ani{
+      font-size: 20px;
+      padding-top: 2em;
+     }
+     .acc--button{
+      width: 25px;
+      height: 25px;
+      font-size: 20px;
+        }
+        .preF--mainDiv h1{
+          font-size: 24px;
+        }
+        .preF--mainDiv h2{
+          font-size: 18px;
+        } 
+        .Footer-div{
+          font-size: 10px;
+        } 
+        .footer--logo{
+          transform: scale(0.8);
+        }
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+  .navbar--navigation{
+    display: none;
+  }
+  .navbar--container{
+    max-height: 4em;
+  }
+    .navbar--navigation.active {
+  transform: scale(0.8);
+      display: block;
+      position: absolute;
+      padding: 1em;
+      top: 4.5em;
+      left: 0;
+      width: 100%;
+      background-color:#242528;
+      z-index:9999 ;
+      box-sizing: border-box;
+      background: rgba(255, 255, 255, 0.018); 
+      backdrop-filter: blur(3px); 
+      -webkit-backdrop-filter: blur(5px); 
+  }
+  .navbar--navigation.active ul{
+    background: rgba(255, 255, 255, 0.088); 
+    backdrop-filter: blur(1px); 
+    -webkit-backdrop-filter: blur(1px);  
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar--navigation.active ul button{
+    margin: 0.5em;
+    font-size: 12px;
+    background-color: #242528;
+     }
+  .navbar--title h1{
+    font-size: 22px;
+  }
+  .navbar--title {
+    transform: scale(0.8);
+  }
+  .navbar--navigation ul button{
+    padding: 0.25em 0.75em;
+      font-size: 11px;
+    }
+  
+  .Welcome--container{
+    margin-top: 2em;
+    padding: 1.75em 0 1.75em 1.75em;
+  }
+  .Welcome--container div{
+    margin: 0.25em 0 0 0.5em;
+  }
+  .Welcome--title h1{
+    font-size: 20px;
+  }
+  .Welcome--tagline{
+    font-size: 16px
+  }
+  .Welcome--info{
+    font-size: 11px;
+  }
+  .Welcome--button button,.scheduleBtn{
+    font-size: 8px;
+    margin-top: 0.2em;
+    padding: 0.2rem;
+  }
+  .item img{
+    transform: scale(0.4);
+  }
+  .item h1{
+    font-size: 10px;
+  }
+  .centerText--container h1{
+    font-size: 17px;
+  }
+  .centerText--container{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+    .wrapper{
+      padding-top: 1rem;
+      padding-bottom: 4rem;
+    }
+    .Achieve--title{
+      font-size: 10px;
+    }
+    .Achieve--title h4{
+      font-size: 12px;
+    }
+    .Achieve--title h4{
+      padding-top: 0.2em;
+    }
+    .achieve--data{
+      padding: 0.25em 0 0.25em 0;
+    }
+    .data h1{font-size: 16px;}
+    .data h4{font-size: 10px;}
+    .acc--title h1{
+      font-size: 12px
+    }
+    .acc--content h2{
+      font-size: 12px;
+    }
+    .Extra-ani{
+      font-size: 16px;
+      padding-top: 1em;
+      padding-bottom: 0.5em;
+     }
+     .acc--button{
+      width: 20px;
+      height: 20px;
+      font-size: 15px;
+        }
+        .acc--elements{
+          padding: 0;
+        }
+        .acc--item{
+          margin: 0.5em 0 0.5em 0;  
+        }
+        .nav-toggle-div{
+          opacity: 1;
+        }
+        .footer--logo{
+          transform: scale(0.5);
+        }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+  .navbar--navigation{
+    display: none;
+  }
+  .navbar--navigation.active {
+    transform: scale(1);
+    display: block;
+    position: absolute;
+    top: 4.5em;
+    left: 0;
+    width: 100%;
+    background-color:#242528;
+    z-index:9999 ;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.018); 
+    backdrop-filter: blur(3px); 
+    -webkit-backdrop-filter: blur(5px); 
+  }
+  .navbar--navigation.active ul{
+    background: rgba(255, 255, 255, 0.088); 
+    backdrop-filter: blur(1px); 
+    -webkit-backdrop-filter: blur(1px);  
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .navbar--navigation.active ul button{
+ margin: 0.5em;
+ font-size: 12px;
+ background-color: #242528;
+  }
+  .navbar--navigation.active:hover ul button:hover{
+  background-color: var(--clr-taglines2);
+  } 
+  .navbar--container{
+    max-height: 4em;
+    position: fixed;
+    z-index: 99999;
+  }
+  .navbar--title h1{
+    font-size: 26px;
+  }
+  .navbar--title {
+    transform: scale(0.8);
+  }
+  .navbar--navigation ul button{
+    padding: 0.25em 0.75em; 
+      font-size: 8px;
+    }
+  
+  .Welcome--container{
+    padding: 1.75em 0 1.75em .75em;
+  }
+  .Welcome--container div{
+    margin: 0.25em 0 0 0.5em;
+  }
+  .Welcome--title h1{
+    font-size: 24px;
+  }
+  .Welcome--tagline{
+    font-size: 18px
+  }
+  .Welcome--info{
+    font-size: 14px;
+  }
+  .Welcome--button button,.scheduleBtn{
+    font-size: 10px;
+    margin-top: 1.5em;
+    padding: 0.5rem;
+  }
+  .item img{
+    transform: scale(0.6);
+  }
+  .item h1{
+    font-size: 12px;
+  }
+  .centerText--container h1{
+    font-size: 18px;
+  }
+  .centerText--container{
+    padding-top: 3em;
+    padding-bottom: 1em;
+  }
+    .wrapper{
+      padding-top: 1rem;
+      padding-bottom: 4rem;
+    }
+    .Achieve--title{
+      font-size: 10px;
+    }
+    .Achieve--title h4{
+      font-size: 12px;
+    }
+    .Achieve--title h4{
+      padding-top: 1em;
+    }
+    .achieve--data{
+      padding: 0.25em 0 0.25em 0;
+    }
+    .data h1{font-size: 20px;}
+    .data h4{font-size: 12px;}
+    .acc--title h1{
+      font-size: 12px
+    }
+    .acc--content h2{
+      font-size: 12px;
+    }
+    .Extra-ani{
+      font-size: 16px;
+      padding-top: 1em;
+      padding-bottom: 0.5em;
+     }
+     .acc--button{
+      width: 20px;
+      height: 20px;
+      font-size: 15px;
+        }
+        .acc--elements{
+          padding:0 ;
+      
+          
+        }
+        .acc--item{
+          margin:0.5em 0 0.5em 0;  
+          max-width: 90vw;
+          width: 90vw;
+          
+          
+        }
+        .acc--title{
+          width: 80vw;
+          max-width: 80vw;
+  
+        }
+        .nav-toggle-div{
+          opacity: 1;
+        }
+        .preF--mainDiv h1{
+          font-size: 20px;
+        }
+        .preF--mainDiv h2{
+          font-size: 15px;
+        }
+       #footer--logo{
+      transform: scale(0.8);
+       }
+}
