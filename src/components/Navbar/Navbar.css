@@ -18,7 +18,10 @@
   font-size: 32px;
   
 }
-
+.navbar--title img{
+  width: 40px;
+  height: 40px;
+}
 .navbar--navigation {
   background-color: var(--clr-Nav-bg);
   border-radius: 3rem;

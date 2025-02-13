@@ -11,7 +11,7 @@ const WelcomeText = () => {
         <div className="Welcome--container">
           <div className="Welcome--title">
             <h1>
-              Welcome to <span className="welcome--logo-colour">FastAPI</span>
+              Welcome to <span className="welcome--logo-colour">EndPoint</span>
             </h1>
           </div>
           <div className="Welcome--tagline">Your Partner in innovation</div>

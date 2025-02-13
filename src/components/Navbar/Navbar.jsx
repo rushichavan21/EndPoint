@@ -27,10 +27,10 @@ const Navbar = () => {
     <div className="navbar--container container">
       <div className="navbar--title">
         <img
-          src="https://algowiz.in/static/media/algowiz_logo.ac943886e32b81f4a428f264fc1cd5c3.svg"
+          src="/logo.svg"
           alt="logo"
         />
-        <h1>FastAPI</h1>
+        <h1>EndPoint</h1>
       </div>
       {isOpen ? (
         <div className="nav-toggle-div">

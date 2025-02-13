@@ -1,10 +1,8 @@
 
 .maincontainer {
   display: flex;
-  background-color: #11091d;
 }
 .Welcome--container {
-  background-color: #11091d;
   display: flex;
   flex-direction: column;
   justify-content: center;

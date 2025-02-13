@@ -16,3 +16,7 @@
     max-width: 30ch;
     color: var(--clr-taglines3);
 }
+
+.Footer--first-div img{
+width: 50px;
+}
