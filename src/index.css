@@ -523,3 +523,27 @@ html {
       transform: scale(0.8);
        }
 }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--clr-background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--clr-taglines);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--btn-bg-orange);
+}
+
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--clr-taglines) var(--clr-background);
+}
